@@ -1,0 +1,17 @@
+.body{
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    transition: right 0.4s;
+}
+@media screen and (min-width: 900px) {
+    .body{
+        right: 260px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .body{
+        right: 55px;
+    }
+}

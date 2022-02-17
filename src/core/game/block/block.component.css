@@ -1,0 +1,7 @@
+.block{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 2px;
+    transition: all 0.4s;
+}
